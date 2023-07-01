@@ -1,3 +1,3 @@
 # bitcoin-tl
 
-<img src="Başlıksız Diyagram (2).png">
+<img src="diagram.png">
