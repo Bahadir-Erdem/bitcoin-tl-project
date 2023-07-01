@@ -1,5 +1,5 @@
 # bitcoin-tl
 <img
-  src="My project.png"
+  src="diagram.jpg"
   alt="Alt text"
   title="Optional title">
