@@ -1,12 +1,6 @@
 
 <a name="readme-top"></a>
 
-
-
-
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -24,17 +18,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 ![A test image](diagram.png)
 
@@ -55,10 +44,7 @@ An ETL project for the purpose of storing bitcoin to tl value inside of Google B
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+This installation is valid for Windows 10/11 users.
 ### Prerequisites 
 * [Coinranking api key][Coinranking-Api]
 * [Exchangerate api key][ExchangeRate-Api]
@@ -66,10 +52,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Installation
 
-### [1. Ubuntu][Ubuntu-Installation]
-
+### 1. [Ubuntu][Ubuntu-Installation]
+***
 ### 2. Apache Airflow
   
+
   ```sh
    sudo apt-get install software-properties-common
    ```
@@ -89,7 +76,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    pip3 install apache-airflow
    ```
-   after that installation finished close the terminal and reopen it
+   After that installation finished close the terminal and reopen it
   
    ```sh
    airflow db init
@@ -122,27 +109,22 @@ To get a local copy up and running follow these simple example steps.
    pip install pandas-gbq
    ```
 
+***
 
-
-   
-### [3. gcloud CLI][Gcloud-Installation]
-
-
-<!-- LICENSE -->
+### 3. [gcloud CLI][Gcloud-Installation]
+***
+### 4. Configure Necessary Information Inside of "bitcoin_tl_project_dag.py"
+***
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+mbahadirerdem@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
